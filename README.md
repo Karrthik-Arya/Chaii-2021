@@ -8,6 +8,6 @@ We went through various articles and other resources to get an idea on how to pr
 
 We thought before moving on to Hindi and Tamil we should first try and make a model to predict answers to questions in English. So we used distilBERT( for faster training) to make a model to predict answers to questions from the Stanford question and answering dataset. This [train-v2.0.json](https://drive.google.com/file/d/1I5QpAss9_s4EzDTkYSk1q1OmBSkezW_N/view?usp=sharing) file is the training dataset from SQUAD that we used. The bert_qna.ipynb has the model that we implemented. 
 
-We also tried to get word embeddings for hindi and tamil languages using BERT's word piec tokenizer itself. We directly Chaii 2021's dataset to train this on all th e contexts given in the file.  The file Hindi_and_Tamil_Tokenization.ipynb contains this implementation. 
+We also tried to get word embeddings for hindi and tamil languages using BERT's word piece tokenizer itself. We directly [Chaii 2021's dataset](https://drive.google.com/file/d/1Bpkm_e5zsTQivFrkEt_hBSHdSi1QNWvq/view?usp=sharing) to train this on all the contexts given in the file.  The file Hindi_and_Tamil_Tokenization.ipynb contains this implementation. 
 
 However we are also exploring google's Electra to use for pre training and generating word embeddings for Hindi and Tamil hoping to get better results. 
